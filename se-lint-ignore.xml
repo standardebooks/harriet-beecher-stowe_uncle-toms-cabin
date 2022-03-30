@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>s-056</code>
+			<reason>The backlink is inside a blockquote.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
