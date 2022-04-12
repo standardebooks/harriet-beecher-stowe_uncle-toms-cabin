@@ -28,6 +28,13 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Uncle Tom’s Cabin</dc:title>
 		<meta property="file-as" refines="#title">Uncle Tom’s Cabin</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">Or, Life Among the Lowly</dc:title>
+		<meta property="file-as" refines="#subtitle">Or, Life Among the Lowly</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Uncle Tom’s Cabin; or, Life Among the Lowly</dc:title>
+		<meta property="file-as" refines="#fulltitle">Uncle Tom’s Cabin; or, Life Among the Lowly</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Slavery -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Didactic fiction</dc:subject>
 		<dc:subject id="subject-3">Political fiction</dc:subject>
@@ -58,37 +65,44 @@
 		<meta property="term" refines="#subject-9">Unknown</meta>
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2008111715</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Drama</meta>
+		<dc:description id="description">The account of several slaves, sold to new owners after their current owner experiences financial hardship.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;Faced with the possibility of financial ruin, slave owner Arthur Shelby decides to sell two of his slaves: Uncle Tom and a young boy named Harry. Eliza, Harry’s mother, makes the decision to run away while Uncle Tom decides that his moral duty is to submit to his master and cooperate with the sale. The story follows the diverging lives of these two slaves—Eliza’s flight to Canada and Uncle Tom’s journey into the deep south.&lt;/p&gt;
+			&lt;p&gt;Eliza is accompanied by her husband, George, who also escaped from his owner at the same time. They must escape pursuit from bounty hunters and somehow make their way to freedom. Uncle Tom, on the other hand, must face the uncertainty of new owners, separation from his family, and somehow remain true to his religious faith.&lt;/p&gt;
+			&lt;p&gt;Upon it’s release, &lt;i&gt;Uncle Tom’s Cabin&lt;/i&gt; sparked immediate criticism from slave owners and praise from abolitionists. It’s influence was such that one apocryphal story claims that Abraham Lincoln stated “so this is the little lady who started this great war” upon meeting &lt;a href="https://standardebooks.org/ebooks/harriet-beecher-stowe"&gt;Stowe&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;The book has remained controversial in modern times as well. Critics point to Uncle Tom’s passive nature and the extensive use of racial stereotypes. Despite that, the novel’s influence is undeniable and helped pave the way for modern protest literature.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/203</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:source>https://archive.org/details/uncletomscabi00stow</dc:source>
+		<meta property="se:production-notes">Project Gutenberg's version contains endnotes that appear to have first been included in the 1962 Belknap Press version of the book. Since we could not confirm their copyright status, only the original footnotes were included here.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Uncle_Tom%E2%80%99s_Cabin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/harriet-beecher-stowe_uncle-toms-cabin</meta>
 		<dc:creator id="author">Harriet Beecher Stowe</dc:creator>
 		<meta property="file-as" refines="#author">Stowe, Harriet Beecher</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79093331</meta>
+		<meta property="se:role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Richard Norris Brooke</dc:contributor>
+		<meta property="file-as" refines="#artist">Brooke, Richard Norris</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Richard_Norris_Brooke</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2004112928</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Judith Boss</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Boss, Judith</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">An Anonymous Volunteer</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Anonymous Volunteer, An</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">David Widger</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Widger, David</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Jason DeCock</dc:contributor>
+		<meta property="file-as" refines="#producer-1">DeCock, Jason</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
