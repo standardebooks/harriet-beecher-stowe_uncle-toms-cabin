@@ -15,9 +15,20 @@
 }
 /* End all epigraphs */
 
-[epub|type~="epigraph"] + p{
-	text-indent: 0;
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
 }
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
 
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
@@ -52,15 +63,11 @@ span.elision{
 }
 
 footer{
-	font-variant: small-caps;
 	margin-top: 1em;
 	text-align: right;
 }
 
-footer em{
-	font-variant: initial;
-}
-
+[epub|type~="z3998:sender"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }

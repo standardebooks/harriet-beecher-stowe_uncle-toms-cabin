@@ -65,7 +65,7 @@
 		<meta property="term" refines="#subject-9">Unknown</meta>
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2008111715</meta>
-		<meta property="se:subject">Drama</meta>
+		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">The account of several slaves, sold to new owners after their current owner experiences financial hardship.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Faced with the possibility of financial ruin, slave owner Arthur Shelby decides to sell two of his slaves: Uncle Tom and a young boy named Harry. Eliza, Harry’s mother, makes the decision to run away while Uncle Tom decides that his moral duty is to submit to his master and cooperate with the sale. The story follows the diverging lives of these two slaves—Eliza’s flight to Canada and Uncle Tom’s journey into the deep south.&lt;/p&gt;
