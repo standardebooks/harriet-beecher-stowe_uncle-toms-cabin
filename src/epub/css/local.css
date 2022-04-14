@@ -1,5 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
+@namespace xml "http://www.w3.org/XML/1998/namespace";
 
 /* All epigraphs */
 [epub|type~="epigraph"]{
@@ -50,6 +51,10 @@ section > header [epub|type~="epigraph"]{
 [epub|type~="z3998:song"] p > span + br,
 [epub|type~="z3998:verse"] p > span + br{
 	display: none;
+}
+
+body [xml|lang]{
+	font-style: italic;
 }
 
 p span.i1{
