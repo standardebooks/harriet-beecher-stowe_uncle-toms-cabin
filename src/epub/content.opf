@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/harriet-beecher-stowe/uncle-toms-cabin</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2022-04-15T16:49:37Z</dc:date>
+		<meta property="dcterms:modified">2022-04-15T16:49:37Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -66,19 +66,19 @@
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2008111715</meta>
 		<meta property="se:subject">Fiction</meta>
-		<dc:description id="description">The account of several slaves, sold to new owners after their current owner experiences financial hardship.</dc:description>
+		<dc:description id="description">The account of several slaves who are sold to new owners after their current owner experiences financial hardship.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Faced with the possibility of financial ruin, slave owner Arthur Shelby decides to sell two of his slaves: Uncle Tom and a young boy named Harry. Eliza, Harry’s mother, makes the decision to run away while Uncle Tom decides that his moral duty is to submit to his master and cooperate with the sale. The story follows the diverging lives of these two slaves—Eliza’s flight to Canada and Uncle Tom’s journey into the deep south.&lt;/p&gt;
-			&lt;p&gt;Eliza is accompanied by her husband, George, who also escaped from his owner at the same time. They must escape pursuit from bounty hunters and somehow make their way to freedom. Uncle Tom, on the other hand, must face the uncertainty of new owners, separation from his family, and somehow remain true to his religious faith.&lt;/p&gt;
-			&lt;p&gt;Upon it’s release, &lt;i&gt;Uncle Tom’s Cabin&lt;/i&gt; sparked immediate criticism from slave owners and praise from abolitionists. It’s influence was such that one apocryphal story claims that Abraham Lincoln stated “so this is the little lady who started this great war” upon meeting &lt;a href="https://standardebooks.org/ebooks/harriet-beecher-stowe"&gt;Stowe&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;The book has remained controversial in modern times as well. Critics point to Uncle Tom’s passive nature and the extensive use of racial stereotypes. Despite that, the novel’s influence is undeniable and helped pave the way for modern protest literature.&lt;/p&gt;
+			&lt;p&gt;Eliza is accompanied by her husband, George, who also escaped from his owner at the same time. Together they must outrun bounty hunters and somehow make their way to freedom. Uncle Tom, on the other hand, must face the uncertainty of new owners and separation from his family, while somehow remaining true to his religious faith.&lt;/p&gt;
+			&lt;p&gt;Upon its release, &lt;i&gt;Uncle Tom’s Cabin&lt;/i&gt; sparked immediate criticism from slave owners and praise from abolitionists. Its influence was such that one apocryphal story claims that Abraham Lincoln who, upon meeting &lt;a href="https://standardebooks.org/ebooks/harriet-beecher-stowe"&gt;Stowe&lt;/a&gt;, stated “so this is the little lady who started this great war.”&lt;/p&gt;
+			&lt;p&gt;The book remains controversial, with critics pointing to Uncle Tom’s passive nature and the extensive use of racial stereotypes. Despite this, the novel’s influence is undeniable, and it helped pave the way for modern protest literature.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/203</dc:source>
 		<dc:source>https://archive.org/details/uncletomscabi00stow</dc:source>
 		<meta property="se:production-notes">Project Gutenberg's version contains endnotes that appear to have first been included in the 1962 Belknap Press version of the book. Since we could not confirm their copyright status, only the original footnotes were included here.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">186187</meta>
+		<meta property="se:reading-ease.flesch">77.98</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Uncle_Tom%E2%80%99s_Cabin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/harriet-beecher-stowe_uncle-toms-cabin</meta>
 		<dc:creator id="author">Harriet Beecher Stowe</dc:creator>
@@ -109,6 +109,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
