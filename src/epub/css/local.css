@@ -67,6 +67,10 @@ span.elision{
 	margin-left: 3em;
 }
 
+body [xml|lang] span.elision{
+	font-style: normal;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
