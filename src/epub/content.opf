@@ -78,7 +78,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/203</dc:source>
 		<dc:source>https://archive.org/details/uncletomscabi00stow</dc:source>
 		<meta property="se:production-notes">Project Gutenberg's version contains endnotes that appear to have first been included in the 1962 Belknap Press version of the book. Since we could not confirm their copyright status, only the original footnotes were included here.</meta>
-		<meta property="se:word-count">186186</meta>
+		<meta property="se:word-count">186185</meta>
 		<meta property="se:reading-ease.flesch">78.08</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Uncle_Tom%E2%80%99s_Cabin</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/harriet-beecher-stowe_uncle-toms-cabin</meta>
