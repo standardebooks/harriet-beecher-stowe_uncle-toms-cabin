@@ -1,0 +1,1 @@
+Project Gutenberg's version contains endnotes that appear to have first been included in the 1962 Belknap Press version of the book. Since we could not confirm their copyright status, only the original footnotes were included here.

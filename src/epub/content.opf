@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/harriet-beecher-stowe/uncle-toms-cabin</dc:identifier>
 		<dc:date>2022-04-15T16:49:37Z</dc:date>
 		<meta property="dcterms:modified">2022-04-15T16:49:37Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -66,7 +67,7 @@
 		<meta property="term" refines="#subject-9">Unknown</meta>
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">sh2008111715</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">The account of several slaves who are sold to new owners after their current owner experiences financial hardship.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Faced with the possibility of financial ruin, slave owner Arthur Shelby decides to sell two of his slaves: Uncle Tom and a young boy named Harry. Eliza, Harry’s mother, makes the decision to run away while Uncle Tom decides that his moral duty is to submit to his master and cooperate with the sale. The story follows the diverging lives of these two slaves—Eliza’s flight to Canada and Uncle Tom’s journey into the deep south.&lt;/p&gt;
@@ -77,21 +78,22 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/203</dc:source>
 		<dc:source>https://archive.org/details/uncletomscabi00stow</dc:source>
-		<meta property="se:production-notes">Project Gutenberg's version contains endnotes that appear to have first been included in the 1962 Belknap Press version of the book. Since we could not confirm their copyright status, only the original footnotes were included here.</meta>
-		<meta property="se:word-count">181474</meta>
-		<meta property="se:reading-ease.flesch">78.08</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Uncle_Tom%E2%80%99s_Cabin</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/harriet-beecher-stowe_uncle-toms-cabin</meta>
+		<meta property="schema:wordCount">181474</meta>
+		<meta property="schema:educationalLevel">78.08</meta>
+		<link href="https://en.wikipedia.org/wiki/Uncle_Tom%E2%80%99s_Cabin" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/harriet-beecher-stowe_uncle-toms-cabin" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Harriet Beecher Stowe</dc:creator>
 		<meta property="file-as" refines="#author">Stowe, Harriet Beecher</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79093331</meta>
+		<link href="https://en.wikipedia.org/wiki/Harriet_Beecher_Stowe" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79093331.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Richard Norris Brooke</dc:contributor>
 		<meta property="file-as" refines="#artist">Brooke, Richard Norris</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Richard_Norris_Brooke</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/no2004112928</meta>
+		<link href="https://en.wikipedia.org/wiki/Richard_Norris_Brooke" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2004112928.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Judith Boss</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Boss, Judith</meta>
@@ -112,7 +114,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
