@@ -37,16 +37,16 @@
 		<dc:title id="fulltitle">Uncle Tom’s Cabin; or, Life Among the Lowly</dc:title>
 		<meta property="file-as" refines="#fulltitle">Uncle Tom’s Cabin; or, Life Among the Lowly</meta>
 		<meta property="title-type" refines="#fulltitle">expanded</meta>
-		<dc:subject id="subject-1">Slavery -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Slavery--Fiction</dc:subject>
 		<dc:subject id="subject-2">Didactic fiction</dc:subject>
 		<dc:subject id="subject-3">Political fiction</dc:subject>
-		<dc:subject id="subject-4">Master and servant -- Fiction</dc:subject>
-		<dc:subject id="subject-5">African Americans -- Fiction</dc:subject>
-		<dc:subject id="subject-6">Southern States -- Fiction</dc:subject>
-		<dc:subject id="subject-7">Fugitive slaves -- Fiction</dc:subject>
-		<dc:subject id="subject-8">Plantation life -- Fiction</dc:subject>
-		<dc:subject id="subject-9">Uncle Tom (Fictitious character) -- Fiction</dc:subject>
-		<dc:subject id="subject-10">Slaves -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Master and servant--Fiction</dc:subject>
+		<dc:subject id="subject-5">African Americans--Fiction</dc:subject>
+		<dc:subject id="subject-6">Southern States--Fiction</dc:subject>
+		<dc:subject id="subject-7">Fugitive slaves--Fiction</dc:subject>
+		<dc:subject id="subject-8">Plantation life--Fiction</dc:subject>
+		<dc:subject id="subject-9">Uncle Tom (Fictitious character)--Fiction</dc:subject>
+		<dc:subject id="subject-10">Slaves--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2008111718</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
